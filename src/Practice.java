@@ -64,7 +64,7 @@ public class Practice {
      * return:
      *   false
      * 
-     * Edge case: If set is empty, return true.
+     * Edge case: If array is empty, return true.
      * 
      * @param words a array of words
      * @return true if every word starts with A (case-insensitive), false otherwise.
