@@ -20,7 +20,30 @@ javac src/Practice.java && java -cp src Practice
 This will compile your code and run the main method of the Practice class. Before you implement your solutions, the output will be INCORRECT (it will not print the messages on new lines and it will show false for everything). When you finish your solutions, the output should look like this:
 
 ```
-TODO(auberon): sample output
+
+
+///// Print items /////
+Calling printItems(new String[]{"welcome", "to", "sdev", "220"})
+welcome
+to
+sdev
+220
+
+Calling printItems(new String[]{"hello", "world"})
+hello
+world
+
+///// More than Double /////
+moreThanDouble(10, 3): true
+moreThanDouble(6, 4): false
+moreThanDouble(4, 2): false
+
+///// All Start With A /////
+allStartWithA(new String[]{"alligators", "are", "AWESOME"}): true
+allStartWithA(new String[]{"apes", "can", "be", "amazing"}): false
+allStartWithA(new String[]{}): true
+
+
 ```
 
 Note that getting the correct output does NOT guarantee that your code is fully working. It is your resposibility to work on your code to make sure it works for all cases, not just the sample test cases provided.
