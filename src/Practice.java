@@ -79,6 +79,7 @@ public class Practice {
         System.out.println("///// Print items /////");
         System.out.println("Calling printItems(new String[]{\"welcome\", \"to\", \"sdev\", \"220\"})");
         printItems(new String[]{"welcome", "to", "sdev", "220"});
+        System.out.println();
         System.out.println("Calling printItems(new String[]{\"hello\", \"world\")");
         printItems(new String[]{"hello", "world"});
 
